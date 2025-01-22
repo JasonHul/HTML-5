@@ -1,0 +1,20 @@
+* {
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    padding-left: 5%;
+}
+
+li {
+    font-size: 24px;
+    padding: 10px;
+
+}
+
+ul :hover {
+    color: rgb(9, 192, 224);
+}
