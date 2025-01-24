@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+    background-image: linear-gradient(white, rgb(121, 28, 28));
+}
+
+img {
+    margin-left: 50%;
+    transform: translate(-50%);
+    filter: drop-shadow(20px 15px 8px brown);
+    border-radius: 18px;
+}
+
+p {
+    font-size: 25px;
+    padding: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+li, ol {
+    font-weight: bold;
+}

@@ -1,21 +1,21 @@
 * {
-    color: rgb(255, 0, 0);
-    background-color: rgb(255, 51, 0);
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body, h1 {
-    background-image: url("https://www.jessicagavin.com/wp-content/uploads/2017/07/meat-lasagna-1200.jpg");
-
+.page {
+    background-image:url("https://www.inspiredtaste.net/wp-content/uploads/2023/09/Margherita-Pizza-5-1200.jpg") ;
+    backdrop-filter: blur( 111px );
 }
+
 h1 {
     text-align: center;
     font-size: 34px;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 img {
+    width: 700px;
     border-radius: 8px;
     margin-left: 50%;
     transform: translate(-50%);
@@ -36,7 +36,7 @@ p, h2{
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 ul li,
